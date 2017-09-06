@@ -2,7 +2,9 @@
 
 We're going to build a JavaScript project! This will be a fun learning experience and a chance to get better at your vanilla JS before we start looking at frameworks. 
 
-As you come up with a project idea, keep in mind that you won't have a front-end framework to support you. You will have to develop the structure of the application yourself. This will likely make building out each feature more challenging, but you guys are awesome and can do it. Remember to build iteratively and begin with a clear picture of MVP.   
+As you come up with a project idea, keep in mind that you won't have a front-end framework to support you. You will have to develop the structure of the application yourself. This will likely make building out each feature more challenging, but you guys are awesome and can do it. Remember to build iteratively and begin with a clear picture of MVP.
+
+See [this](https://github.com/learn-co-curriculum/js-project-week-setup) if you need help with the initial setup for your project.
 
 ### Requirements
 
