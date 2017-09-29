@@ -2,7 +2,7 @@
 
 ![Spa](https://media.giphy.com/media/JgUNowqwNo5FK/giphy.gif)
 
-You're going to be building a **SPA** or *S*ingle *P*age *A*pplication.  Your frontend will be built with HTML, CSS, and JavaScript. You will also be tasked with constructing your own backend API built with Ruby on Rails. The frontend application will communicate with the backend by making requests and receiving responses. This is really exciting moment, the whole course up until this point is coming together!
+You're going to be building a **SPA** or *S*ingle *P*age *A*pplication.  Your frontend will be built with HTML, CSS, and JavaScript. You will also be tasked with constructing your own backend API built with Ruby on Rails. The frontend application will communicate with the backend by making requests and receiving responses. This is a really exciting moment, the whole course up until this point is coming together!
 
 Building out each feature you want for your application will be challenging, but you all are awesome and can do it. Remember to build iteratively and begin with a clear picture of an MVP.
 
