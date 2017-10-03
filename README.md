@@ -25,4 +25,4 @@ Building out each feature you want for your application will be challenging, but
 
 ## Example Project Setup
 
-[This repository](https://github.com/learn-co-curriculum/js-project-week-setup) goes through the first few steps of setting up an example project for both the frontend and backend applications.  **Please spend some time looking through this before getting started**. If your question (ex: "How do i set up the `rack-cors` gem?") can be answered by reading this repository, you will be directed there.
+[This repository](https://github.com/learn-co-curriculum/mod3-project-week-setup-example) goes through the first few steps of setting up an example project for both the frontend and backend applications.  **Please spend some time looking through this before getting started**. If your question (ex: "How do i set up the `rack-cors` gem?") can be answered by reading this repository, you will be directed there.
