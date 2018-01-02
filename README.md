@@ -20,7 +20,7 @@ Building out each feature you want for your application will be challenging, but
 
 5. jQuery is often helpful to use for DOM traversal and DOM manipulation and you are welcome, though not required, to use it. Remember that what you can do with jQuery you can do with vanilla JavaScript ( [You Might Not Need jQuery](http://youmightnotneedjquery.com/) ) if often a little less elegantly.  
    
-   Having said that we require that you use `fetch` and not `$.ajax`, `$.get` etc. Fetch is built into JavaScript now and you should get used to using it and dealing with some of it's quirks!  Going forward, we don't want you to get the wrong idea that you need to import the entire jQuery library to make a single AJAX request.
+   Having said that we require that you use `fetch` and not `$.ajax`, `$.get` etc. Fetch is built into JavaScript now and you should get used to using it and dealing with some of its quirks!  Going forward, we don't want you to get the wrong idea that you need to import the entire jQuery library to make a single AJAX request.
 
 
 ## Example Project Setup
