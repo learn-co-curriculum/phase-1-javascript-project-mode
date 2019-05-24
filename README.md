@@ -71,10 +71,10 @@ A strong temptation is to order your project timeline row-by-row. Do not do this
 
 ### Rough Timeline
 
-Day 1 - Idea, Project Pitches, first commit
-Day 2 - MVP, first feature working
-Day 3 - Additional features
-Day 4 - Final features, bugfixes, polish
+* Day 1 - Idea, Project Pitches, first commit
+* Day 2 - MVP, first feature working
+* Day 3 - Additional features
+* Day 4 - Final features, bugfixes, polish
 
 ### Project Pitches
 
