@@ -117,7 +117,7 @@ Having a partner usually forces you to have explicit conversations about the des
 - Get your MVP, models, and wireframes approved by instructors before you start coding
 - Start by creating the frontend and backend directories
 - Next, build the **R** from CRUD for just one model, *vertically!* That means one migration, one model, one controller action, one `fetch` call, and one DOM update. Add seed data and confirm that your code works by testing it visually.
-- Then, build the next CRUD action (maybe Create or Update), again building **vertically*.
+- Then, build the next CRUD action (maybe Create or Update), again building **vertically**.
 - Continue building features one by one, (*vertically!*)
 
 Since you are solo, you should not expect to build as large of an application as groups working in pairs. That's fine! Check in with your instructors to make sure your scope and timeline are manageable.
