@@ -107,6 +107,21 @@ If you seek out instructor guidance on your design from the start, they might he
 - Use git branches
 - Review each other's code before merging it in (use the github PR feature)
 
+### Guidelines for working Solo
+
+Just because you don't have a partner doesn't mean you shouldn't work as a team! For you, it'll be a team of one. 
+
+Having a partner usually forces you to have explicit conversations about the design of your application and the choices you make. Without a partner, you should still be very clear - and **write down** - the decisions you make about your project. This will not only help you think more clearly, it will also help you communicate your project to instructors when asking for help.
+
+- Write down your ideas (use diagrams!)
+- Get your MVP, models, and wireframes approved by instructors before you start coding
+- Start by creating the frontend and backend directories
+- Next, build the **R** from CRUD for just one model, *vertically!* That means one migration, one model, one controller action, one `fetch` call, and one DOM update. Add seed data and confirm that your code works by testing it visually.
+- Then, build the next CRUD action (maybe Create or Update), again building **vertically*.
+- Continue building features one by one, (*vertically!*)
+
+Since you are solo, you should not expect to build as large of an application as groups working in pairs. That's fine! Check in with your instructors to make sure your scope and timeline are manageable.
+
 ### Users and Auth
 
 Key point: **Do not build user authentication with passwords**
