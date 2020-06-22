@@ -28,7 +28,9 @@ Building this application will be challenging because it will integrate everythi
 
 2. Backend must render a resource with at least one has-many relationship. For example, if we were building Instagram, we might display a list of photos with associated comments.
 
-3. The backend and frontend must collaborate to demonstrate Read, Create, and either Update or Delete for at least two of your models. The results of each action should be diplayed to the user without a page refresh.
+3. The backend and frontend must collaborate to demonstrate Read AND Create for at least two of your models. Additionally, you'll need either Update or Delete for at least two models. The results of each action should be diplayed to the user without a page refresh.
+
+4. Your entire app must run on a single page. There should be NO redirects. In other words, your project will contain a single HTML file.
 
 ## Strategy, Timeline, and Tips
 
@@ -38,6 +40,8 @@ Building this application will be challenging because it will integrate everythi
 - Develop user stories
   - Features should not need you there to explain them to users
 - Plan out your models
+- List your controller actions
+- Plan out the structure of your JSON responses
 
 ### Feedback
 
