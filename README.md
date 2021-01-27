@@ -1,10 +1,5 @@
 # JavaScript Project Mode
 
-- Learning Goals
-- Introduction
-- Requirements
-- Strategy, Timeline, and Tips
-- Example Projects
 ## Learning Goals
 
 
