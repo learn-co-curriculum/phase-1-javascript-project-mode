@@ -24,7 +24,7 @@ coming together!
 
 ### Project Requirements
 
-1. Your app m1`aQ1ust be a HTML/CSS/JS frontend that accesses data from a public API.
+1. Your app must be a HTML/CSS/JS frontend that accesses data from a public API.
    All interactions between the client and the API should be handled
    asynchronously and use JSON as the communication format.
 
