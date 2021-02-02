@@ -45,6 +45,7 @@ coming together!
 
 - Plan out your features
 - Develop user stories
+  - “As [ a user ], I want [ to perform this action ] so that [ I can accomplish this goal ].”
   - Features should not need you there to explain them to users
 - Plan out your models
 - List your controller actions
