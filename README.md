@@ -51,12 +51,17 @@ coming together!
 - List your controller actions
 - Plan out the structure of your JSON responses
 
-### Feedback
+### Project Pitches
 
-- Get feedback from instructors before you start to build
-- Get feedback from your peers as you build each feature. This will help
-  identify bugs and design improvements
-- Get feedback on your code from instructors as you build
+Before you start working on your project, you'll pitch your project idea to your
+instructors for approval and feedback.
+
+For your project pitch, you should include:
+
+- The basic story of your application
+- The core features of your MVP
+- The API data you'll be using and how you'll use it
+- Challenges you expect to face
 
 ### MVP ASAP
 
@@ -70,17 +75,12 @@ coming together!
 * Day 3 - Additional features
 * Day 4 - Final features, bugfixes, polish
 
-### Project Pitches
+### Feedback
 
-Before you start working on your project, you'll pitch your project idea to your
-instructors for approval and feedback.
-
-For your project pitch, you should include:
-
-- The basic story of your application
-- The core features of your MVP
-- The API data you'll be using and how you'll use it
-- Challenges you expect to face
+- Get feedback from instructors before you start to build
+- Get feedback from your peers as you build each feature. This will help
+  identify bugs and design improvements
+- Get feedback on your code from instructors as you build
 
 ### Instructor Guidance
 
