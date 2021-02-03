@@ -3,9 +3,9 @@
 ## Learning Goals
 
 
-- Design and architect features across frontend and backend
+- Design and architect features across a frontend
 - Communicate and collaborate in a technical environment
-- Integrate JavaScript and Rails
+- Integrate JavaScript and an external API
 - Debug issues in small- to medium-sized projects
 - Build and iterate on a project MVP
 
@@ -47,9 +47,7 @@ public API.
 - Develop user stories
   - “As [ a user ], I want [ to perform this action ] so that [ I can accomplish this goal ].”
   - Features should not need you there to explain them to users
-- Plan out your models
-- List your controller actions
-- Plan out the structure of your JSON responses
+- Plan out the structure of your JSON requests
 
 ### Project Pitches
 
