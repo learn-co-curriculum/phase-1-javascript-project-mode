@@ -1,6 +1,4 @@
-# JavaScript Project Mode
-
-## Learning Goals
+# JavaScript Project Mode ## Learning Goals
 
 
 - Design and architect features across a frontend
@@ -31,10 +29,9 @@ public API.
 2. Your entire app must run on a single page. There should be NO redirects. In
    other words, your project will contain a single HTML file.
 
-3. Some interactivity is required. This could be as simple as adding a "like"
-   button or adding comments. These interactions do not need to persist after
-   reloading the page.
-
+3. Some interactivity is required. This interactivity needs to incorporate at least 3 separate event listeners. This could be as simple as adding a "like"
+   button or adding comments. These interactions do not need to persist after reloading the page.
+   
 ### Stretch Goals
 
 4. Set up a JSON server in your project to persist your app's interactivity.
@@ -52,7 +49,7 @@ public API.
 ### Project Pitches
 
 Before you start working on your project, you'll pitch your project idea to your
-instructors for approval and feedback.
+instructors for approval and feedback. 
 
 For your project pitch, you should include:
 
@@ -60,25 +57,14 @@ For your project pitch, you should include:
 - The core features of your MVP
 - The API data you'll be using and how you'll use it
 - Challenges you expect to face
+- How you are meeting the requirements of the project
+
+Feel free to send this pitch to your instructor via slack asynchronously. 
 
 ### MVP ASAP
 
 - Build a Minimum Viable Product (MVP) as quickly as possible.
-  - Pick an API and explore it early on to ensure it will work for your needs
-
-### Rough Timeline
-
-* Day 1 - Idea, Project Pitches, first commit
-* Day 2 - MVP, first feature working
-* Day 3 - Additional features
-* Day 4 - Final features, bugfixes, polish
-
-### Feedback
-
-- Get feedback from instructors before you start to build
-- Get feedback from your peers as you build each feature. This will help
-  identify bugs and design improvements
-- Get feedback on your code from instructors as you build
+  - Pick an API and explore it early on to ensure it will work for your need
 
 ### Instructor Guidance
 
@@ -88,7 +74,7 @@ your time stuck on a problem. A good guideline for a small bug is the rule of
 
 - 10 minutes debugging the code
 - 10 minutes using Google and StackOverflow to try to find an answer
-- 10 minutes asking your teammates or fellow students for help
+- 10 minutes asking your fellow students for help
 - Asking an instructor
 
 If you seek out instructor guidance on your design from the start, they might
