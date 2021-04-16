@@ -101,7 +101,3 @@ also recommend the following to help stay organized and on track:
 
 Check in with your instructors to make sure your scope and timeline are
 manageable.
-
-### Resources
-- Example pitch (WIP)
-- Example project(s)
