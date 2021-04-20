@@ -1,5 +1,6 @@
-# JavaScript Project Mode ## Learning Goals
+# JavaScript Project Mode 
 
+## Learning Goals
 
 - Design and architect features across a frontend
 - Communicate and collaborate in a technical environment
