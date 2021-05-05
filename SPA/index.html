@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oblique Strategies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="viewerContainer">
+    <h1 id="title">Oblique Strategies</h1>
+    <h2 id="intro">In 1975, Brian Eno and multimedia artist Peter Schmidt devised a set of mysterious cards... 
+        <br>Intended to help musicians break from the constraints of convention, the pair left inspiration to chance.</h2>
+    <h4 id="instructions">Stuck? Consult the cards:</h4>
+    <input id="user-text" placeholder="Enter your dilemma">
+    <br>
+    <br>
+    <button onclick="randomCard()" id="user-btn">Submit</button>
+    <input type="reset" value="Reset" onclick="clearText()"/>
+    <br>
+    <br>
+    <section id="newStrategy"></section>
+    <blockquote id="card-text"></blockquote>
+    <br>
+    <button type="button" id="card-btn">Draw a new card</button>
+    <button id="learn-more" onclick="learnMore()">Learn More</button>
+    </div>
+
+
+    <!-- <div id="container">
+        <h2>Oblique Strategies</h2>
+        <button id="btn">Click for a new card</button>
+        <blockquote id="card-text"></blockquote>
+    <div id="output">Press to generate</div>
+    </div> -->
+    <script src="index.js"></script>
+    
+</body>
+</html>

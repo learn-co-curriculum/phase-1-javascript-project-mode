@@ -1,0 +1,70 @@
+
+body {
+    background-color: #000000;
+}
+
+#viewerContainer {
+    background-color: #ffffff;
+    border: 5px solid #ccc9ca;
+    height: 550px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+#btn {
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    background-color: rgb(192, 191, 191);
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px;
+}
+
+#user-text {
+    width: 250px;
+    text-align: center;
+}
+
+#output {
+    margin: 25px auto;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+}
+
+#card-text {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    border: 3px solid #000000;
+    font-style: italic;
+    padding: 25px;
+}
+
+#card-text + #btn {
+}
+
+#title {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-decoration: underline overline #ccc9ca;
+}
+
+#intro {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+#intro2 {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+#instructions {
+    font-size: 20px;
+}
