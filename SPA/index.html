@@ -17,15 +17,23 @@
     <input id="user-text" placeholder="Enter your dilemma">
     <br>
     <br>
-    <button onclick="randomCard()" id="user-btn">Submit</button>
+    <button onclick="checkInput()" id="user-btn">Submit</button>
     <input type="reset" value="Reset" onclick="clearText()"/>
     <br>
     <br>
     <section id="newStrategy"></section>
+    <h5 id="strat">STRATEGY:</h5>
     <blockquote id="card-text"></blockquote>
     <br>
-    <button type="button" id="card-btn">Draw a new card</button>
-    <button id="learn-more" onclick="learnMore()">Learn More</button>
+    <button id="card-btn">Draw a new card</button>
+    <button id="save-btn" onclick="displayData()">Save strategy</button>
+    <button id="learn-more" onclick="learnMore()">Learn more</button>
+    <br>
+    <br>
+    <br>
+    <section id="userData"></section>
+    <h6 id="data">SAVED INFO:</h6>
+    <blockquote id="user-data"></blockquote>
     </div>
     <script src="index.js"></script>
     

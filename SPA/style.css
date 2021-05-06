@@ -6,7 +6,7 @@ body {
 #viewerContainer {
     background-color: #ffffff;
     border: 5px solid #ccc9ca;
-    height: 550px;
+    height: 700px;
     width: 750px;
     margin: 0 auto;
     text-align: center; 
@@ -46,7 +46,11 @@ body {
     padding: 25px;
 }
 
-#card-text + #btn {
+#user-data {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 3px solid #000000;
+    padding: 25px;
 }
 
 #title {
@@ -67,4 +71,14 @@ body {
 
 #instructions {
     font-size: 20px;
+}
+
+#strat {
+    font-size: 15px;
+    text-align: left;
+}
+
+#data {
+    font-size: 15px;
+    text-align: left;
 }
