@@ -53,7 +53,7 @@ function errorMessage() {
 let user = new Array();
     strategy = new Array();
 
-function saveData() {
+/*function saveData() {
     let userDilemma = userText.value;
     let userStrategy = cardText.innerText;
     user[user.length] = userDilemma;
@@ -70,34 +70,14 @@ function displayData(){
         data += strategy[i]+"<br>";
     }
     userData.innerHTML = data;
-}
+}*/
 
-/*function saveData() {
+function saveData() {
     newPair = {dilemma: userText.value, strategy: cardText.innerText};
     dataStore = [...dataStore, newPair];
-    console.log(newPair);
     displayData();
 }
 
-/*function displayData() {
+function displayData() {
     userData.innerHTML = (console.log(dataStore));
-}*/
-
-/*function saveData() {
-    let dilemmaDilemma = userText.value;
-    let userStrategy = cardText.innerText;
-    dilemma[dilemma.length] = dilemmaDilemma;
-    strategy[strategy.length] = userStrategy;
-    displayData();
 }
-
-function displayData(){
-    let data = ("<b>Dilemma : Strategy</b></br>");
-    for(let i = 0; i < dilemma.length; i++) {
-        data +=dilemma[i]+"&nbsp<b>:</b>&nbsp";
-    }
-    for(let i = 0; i < strategy.length; i++) {
-        data += strategy[i]+"<br>";
-    }
-    userData.innerHTML = data
-}*/
