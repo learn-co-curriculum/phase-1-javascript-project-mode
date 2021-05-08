@@ -53,7 +53,7 @@ function errorMessage() {
 let user = new Array();
     strategy = new Array();
 
-/*function saveData() {
+function saveData() {
     let userDilemma = userText.value;
     let userStrategy = cardText.innerText;
     user[user.length] = userDilemma;
@@ -70,9 +70,9 @@ function displayData(){
         data += strategy[i]+"<br>";
     }
     userData.innerHTML = data;
-}*/
+}
 
-function saveData() {
+/*function saveData() {
     newPair = {dilemma: userText.value, strategy: cardText.innerText};
     dataStore = [...dataStore, newPair];
     displayData();
@@ -80,4 +80,4 @@ function saveData() {
 
 function displayData() {
     userData.innerHTML = (console.log(dataStore));
-}
+}*/
