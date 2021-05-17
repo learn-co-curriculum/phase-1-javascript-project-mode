@@ -29,9 +29,10 @@ public API.
 
 2. Your entire app must run on a single page. There should be NO redirects. In
    other words, your project will contain a single HTML file.
+  
+3. Your app needs to incorporate at least 3 separate event listeners (DOMContentLoaded, click, change, submit, etc).
 
-3. Some interactivity is required. This interactivity needs to incorporate at least 3 separate event listeners. This could be as simple as adding a "like"
-   button or adding comments. These interactions do not need to persist after reloading the page.
+4. Some interactivity is required. This could be as simple as adding a "like" button or adding comments. These interactions do not need to persist after reloading the page.
    
 ### Stretch Goals
 
