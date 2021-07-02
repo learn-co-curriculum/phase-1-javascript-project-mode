@@ -33,6 +33,8 @@ public API.
 3. Your app needs to incorporate at least 3 separate event listeners (DOMContentLoaded, click, change, submit, etc).
 
 4. Some interactivity is required. This could be as simple as adding a "like" button or adding comments. These interactions do not need to persist after reloading the page.
+
+5. Follow good coding practices. Keep your code DRY (Do not repeat yourself) by utilizing functions to abstract repetitive code. 
    
 ### Stretch Goals
 
