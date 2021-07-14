@@ -1,0 +1,12 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    “start”: “open http://localhost:8080 && node server.js”
+  },
+  "keywords": [],
+  "author": "Gabriel",
+  "license": "ISC"
+}

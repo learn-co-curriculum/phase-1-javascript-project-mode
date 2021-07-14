@@ -1,0 +1,31 @@
+{
+  "jokes": [
+      {
+        "id": 1,
+        "text": "Did you hear the one about the guy with the broken hearing aid? Neither did he.",
+        "likes": 0
+      },
+      {
+        "id": 2,
+        "text": "What do you call a fly without wings? A walk.",
+        "likes": 0
+      },
+      {
+        "id": 3,
+        "text": "What's the worst thing about ancient history class? The teachers tend to Babylon.",
+        "likes": 0
+      },
+      {
+        "id": 4,
+        "text": "How did the hipster burn the roof of his mouth? He ate the pizza before it was cool.",
+        "likes": 0
+      },
+      {
+        "id": 5,
+        "text": "How much does a hipster weigh? An instagram.", 
+        "likes": 0
+      }
+      
+  
+    ]
+  }
