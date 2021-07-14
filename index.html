@@ -7,17 +7,34 @@
     <title>Funny-HAHA Dad Jokes</title>
 </head>
 <body>
-    <h1> Welcome to America's Funniest Dad Jokes! </h1>
-
-    <p id= 'joke'></p>
-
-    <button id="reload-joke-button"> New Joke</button>
-    <button id="like-button"> Like This Joke</button>
-
-    <h2>Liked Jokes</h2>
     
-    <p>Click a joke to share it with a friend!</p>
-    <ul id="liked-jokes"
+    
+    <!-- <p>Click a joke to share it with a friend!</p> -->
+    
+
+    <div class="navigationbar-container">
+        <h1> Welcome to America's Funniest Dad Jokes! </h1>
+        
+        <p>Reload your joke.</p>
+        
+        <p id= 'joke'></p>
+        
+        <button id="reload-joke-button"> New Joke</button>
+    </div>
+
+    <div class="joke-container">
+        <p>Like your joke.</p>
+        <button id="like-joke-button"> Like The Joke</button>
+
+    </div>
+
+    <div class="joke-container">
+        <p>Reload new joke.</p>
+    </div>
+
+    <div class="joke-container"></div> 
+        <h2>Liked Jokes</h2>
+    </div>
 
     <script src="script.js"></script>
 </body>
