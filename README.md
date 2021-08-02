@@ -41,7 +41,7 @@ HTML, CSS, and JavaScript and will communicate with a public API.
 
 ### Stretch Goals
 
-1. Set up a JSON server in your project to persist your app's interactivity.
+1. Use [json-server][] in your project to persist your app's interactivity.
 
 ## Strategy, Timeline, and Tips
 
@@ -110,7 +110,63 @@ also recommend the following to help stay organized and on track:
 Check in with your instructors to make sure your scope and timeline are
 manageable.
 
+### JSON Server Instructions
+
+> **Note**: Using `json-server` is a stretch goal, so make sure you have a
+> working MVP before trying to set up `json-server`!
+
+You can use this [json-server template][] to generate your backend code. Using
+this template will make it easier to deploy your backend later on.
+
+[json-server template]: https://github.com/learn-co-curriculum/json-server-template
+
+If you prefer, instead of using the template, you can create a `db.json` file
+with a structure in the root of your project that looks like this:
+
+```json
+{
+  "toys": [
+    {
+      "id": 1,
+      "name": "Woody",
+      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
+      "likes": 8
+    },
+    {
+      "id": 2,
+      "name": "Buzz Lightyear",
+      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+      "likes": 14
+    }
+  ]
+}
+```
+
+Then, assuming you have `json-server` installed globally, you can run this
+command to run the server:
+
+```sh
+json-server --watch db.json
+```
+
+Whatever top-level keys exist in your `db.json` file will determine the routes
+available. In the example above, since we have a key of `toys` pointing to an
+array of toy objects, `json-server` will generate the following routes:
+
+- `GET /toys`
+- `POST /toys`
+- `GET /toys/:id`
+- `PATCH /toys/:id`
+- `DELETE /toys/:id`
+
+You can consult the [json-server docs][] for more information.
+
+[json-server docs]: https://www.npmjs.com/package/json-server
+
 ## Resources
 
 - [Public APIs](https://github.com/public-apis/public-apis)
 - [Fun APIs](https://apilist.fun/)
+- [json-server][]
+
+[json-server]: https://www.npmjs.com/package/json-server
