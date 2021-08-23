@@ -145,8 +145,8 @@ with a structure in the root of your project that looks like this:
 Then, assuming you have `json-server` installed globally, you can run this
 command to run the server:
 
-```sh
-json-server --watch db.json
+```console
+$ json-server --watch db.json
 ```
 
 Whatever top-level keys exist in your `db.json` file will determine the routes
