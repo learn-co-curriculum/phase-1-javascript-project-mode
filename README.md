@@ -24,17 +24,24 @@ HTML, CSS, and JavaScript and will communicate with a public API.
 
 1. Your app must be a HTML/CSS/JS frontend that accesses data from a public API.
    All interactions between the client and the API should be handled
-   asynchronously and use JSON as the communication format.
+   asynchronously and use JSON as the communication format. Try to avoid using
+   an API that requires a key. APIs that are free and require no authorization
+   will be easiest to use. For ideas, see this [list of no-auth APIs][APIs]. If
+   you would like to use an API that requires a key, please consult with your
+   instructor on how to protect that key. **NEVER push your API key to github!**
 
 2. Your entire app must run on a single page. There should be NO redirects. In
    other words, your project will contain a single HTML file.
 
-3. Your app needs to incorporate at least 3 separate event listeners
-   (DOMContentLoaded, click, change, submit, etc).
+3. Use at least 3 unique [event-listeners][] that enable interactivity. Think
+   search or filter functionality, toggling dark/light mode, upvoting posts,
+   etc. Each of your event listeners should have its own unique callback
+   function.
 
-4. Some interactivity is required. This could be as simple as adding a "like"
-   button or adding comments. These interactions do not need to persist after
-   reloading the page.
+4. Your project must implement at least one instance of array iteration using
+   available array methods (`map`, `forEach`, `filter`, etc). Manipulating your
+   API data in some way should present an opportunity to implement your array
+   iteration.
 
 5. Follow good coding practices. Keep your code DRY (Do not repeat yourself) by
    utilizing functions to abstract repetitive code.
@@ -170,3 +177,5 @@ You can consult the [json-server docs][] for more information.
 - [json-server][]
 
 [json-server]: https://www.npmjs.com/package/json-server
+[event-listeners]: https://developer.mozilla.org/en-US/docs/Web/Events
+[APIs]:  https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
