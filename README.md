@@ -20,28 +20,36 @@ Building this application will be challenging because it will integrate
 everything you've learned up to this point. Your frontend will be built with
 HTML, CSS, and JavaScript and will communicate with a public API.
 
-### Project Requirements
+### Minimum Project Requirements
 
 1. Your app must be a HTML/CSS/JS frontend that accesses data from a public API.
    All interactions between the client and the API should be handled
-   asynchronously and use JSON as the communication format.
+   asynchronously and use JSON as the communication format. The CSS can be
+   minimal for this project; you just need to create a CSS file with at least
+   one or two definitions, and hook it up.
 
 2. Your entire app must run on a single page. There should be NO redirects. In
    other words, your project will contain a single HTML file.
 
-3. Your app needs to incorporate at least 3 separate event listeners
-   (DOMContentLoaded, click, change, submit, etc).
+3. Your app needs to incorporate at least 1 event listener (DOMContentLoaded,
+   click, change, submit, etc).
 
 4. Some interactivity is required. This could be as simple as adding a "like"
    button or adding comments. These interactions do not need to persist after
    reloading the page.
 
-5. Follow good coding practices. Keep your code DRY (Do not repeat yourself) by
-   utilizing functions to abstract repetitive code.
+### Expand Your Project (Optional)
 
-### Stretch Goals
+If you have the time, continue to build out your project in one or more (or
+all!) of the following ways:
 
-1. Use [json-server][] in your project to persist your app's interactivity.
+1. Use at least 3 unique event listeners that enable interactivity. Think
+   search or filter functionality, toggling dark/light mode, upvoting posts,
+   etc. Each of your event listeners should have its own unique callback
+   function.
+2. Get more ambitious with your CSS.
+3. Stretch Goal: Use [json-server][] in your project to persist your app's
+   interactivity.
 
 ## Strategy, Timeline, and Tips
 
@@ -52,6 +60,7 @@ HTML, CSS, and JavaScript and will communicate with a public API.
   - “As [ a user ], I want [ to perform this action ] so that
     [ I can accomplish this goal ].”
   - Features should not need you there to explain them to users
+- Pick an API and explore it early on to ensure it will work for your need
 - Plan out the structure of your JSON requests
 
 ### Project Pitches
@@ -71,8 +80,10 @@ Feel free to send this pitch to your instructor via slack asynchronously.
 
 ### MVP ASAP
 
-- Build a Minimum Viable Product (MVP) as quickly as possible.
-  - Pick an API and explore it early on to ensure it will work for your need
+Build a Minimum Viable Product (MVP) as quickly as possible. Once you've got the
+MVP working, go back through your code and look for places where you can DRY
+(Don't Repeat Yourself) it up by utilizing functions to abstract repetitive
+code.
 
 ### Instructor Guidance
 
