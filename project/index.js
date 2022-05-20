@@ -1,4 +1,5 @@
 // const URL = 'https://www.omdbapi.com/?t=Forrest+Gump&apikey=821e1418'
+
 const form = document.querySelector('form');
 const h1 = document.querySelector('h1');
 const h4 = document.querySelector('h4');
@@ -6,7 +7,7 @@ const img = document.querySelector('img');
 const p = document.querySelector('p');
 const input = document.querySelector('input');
 
-const API_KEY = "AIzaSyBm7sixhbthLt-WlpG_XLY4X9CYwQ63tQc";
+const API_KEY = "AIzaSyAFox-WBucqYGBy0kgxWCQVu_wTN0wTk8c";
 let video = "";
 
 form.addEventListener("submit", handleSubmit);

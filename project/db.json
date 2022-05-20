@@ -1,0 +1,21 @@
+{
+    "reviews": [
+    {
+        "id": 1,
+        "author": "Mary Jones",
+        "rating": 4,
+        "comment": "I loved the movie! It was a great experience seeing it in the theater and I couldn't recommend it more."
+    },
+    {
+        "id": 2,
+        "author": "Andrew Finch",
+        "rating": 4,
+        "comment": "One of my favorite movies of all time. Sit back, grab some friends, and watch this cinematic masterpiece with a BIG bag of popcorn."
+    },
+    {
+        "id": 3,
+        "author": "Tim Martin",
+        "rating": 3,
+        "comment": "A solid movie. The plot has some holes but overall a good time."
+    }
+]}
