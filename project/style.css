@@ -1,3 +1,28 @@
+body {
+    background-image: url("./images/pexels-paul-deetman-2695679.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3rem;
+    border-left: 6px solid rgb(233, 210, 0);
+}
+
+p {
+    font-size: 1.25 rem;
+}
+
+.container {
+    background-color: white;
+    padding: 1rem;
+    padding-bottom: 50em;
+}
+
 .hidden {
     display: none;
+}
+
+img {
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
