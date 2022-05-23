@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container mt-4">
-            <form class="row">
+            <form class="row" id="searchForm">
                 <div class="col col-sm-8">
                     <label for="DataList" class="form-label mt-2"><h2>Search for a movie</h2></label>
                     <input class="form-control" list="datalistOptions" id="DataList" placeholder="Type to search...">
@@ -28,32 +28,84 @@
                 </div>
             </form>
 
-        <div class="row mt-4 mb-1">
-            <div class="col d-flex align-items-center">
-                <h1></h1>
+        <div class="info-div hidden">
+            <div class="row mt-4 mb-1">
+                <div class="col d-flex align-items-center">
+                    <h1></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-sm-6 image-div">
+                    <img src="#" alt="movie poster">
+                    <h4 class="mt-2" id="metascore"></h4>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-secondary btn-lg" data-bs-toggle="modal" data-bs-target="#trailerModal">
+                        Watch trailer
+                    </button>
+                </div>
+                <div class="col">
+                    <h2 id="reviews-header">Reviews:</h3>
+                    <div class="reviews-div"></div>
+                    <form class="row g-2" id="reviewForm">
+                        <div class="col-10">
+                            <label for="username" class="form-label mt-2"><h3>Leave a review</h3></label>
+                            <input class="form-control" id="username" placeholder="Name">
+                        </div>
+                        <div class="col-md-10">
+                          <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Comments</label>
+                          </div>
+                        </div>
+                        <div class="col-md">
+                          <div class="form-floating">
+                            <select class="form-select" id="floatingSelectGrid">
+                              <option selected>Select rating</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                            </select>
+                            <label for="floatingSelectGrid">Rating</label>
+                          </div>
+                        </div>
+                        <div class="col col-sm-4 d-flex align-items-end">
+                            <button class="btn btn-primary" type="submit" id="reviewSubmit">Submit review</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+            <div class="row pt-3 mt-4">
+                <div class="col col-sm-6">
+                    <h4>Synopsis:</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="row pt-3 mt-4">
+                <div class="col">
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col col-sm-6 image-div hidden">
-                <img src="#" alt="movie poster">
-                <h4></h4>
+  
+        <!-- Modal -->
+        <div class="modal fade" id="trailerModal" tabindex="-1" aria-labelledby="titleLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="titleLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="trailer"></div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
             </div>
-            <div class="col">
-                <h4>Reviews:</h4>
-            </div>
-        </div>
-        <div class="row pt-3">
-            <div class="col col-sm-6">
-                <h5>Synopsis:</h5>
-                <p></p>
-            </div>
-        </div>
-        <div class="row pt-3">
-            <div class="col">
-                <h5>Trailer:</h5>
-                <div id="trailer"></div>
             </div>
         </div>
+
     </div>
     
     <script src="index.js"></script>

@@ -2,23 +2,37 @@ body {
     background-image: url("./images/curtain02.svg");
     background-position: center;
     background-size: cover;
-}
-
-h1 {
-    font-size: 3rem;
-    border-left: 6px solid rgb(233, 210, 0);
-    padding: 4px 8px 0 8px;
-}
-
-p {
-    font-size: 1.25rem;
+    word-spacing: 2px;
 }
 
 .container {
     background-color: white;
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     padding: 1rem;
-    padding-bottom: 50em;
+    padding-bottom: 5em;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    border-left: 6px solid #F5E663;
+    padding: 4px 8px 0 8px;
+}
+
+#reviews-header {
+    border-left: 6px solid #F5E663;
+    padding: 4px 8px 4px 8px;
+}
+
+p {
+    font-size: 1.10rem;
+}
+
+i {
+    margin-left: 1rem;
 }
 
 .hidden {
