@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,5 +12,8 @@
   "dependencies": {
     "bootstrap": "^5.1.3",
     "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
   }
 }

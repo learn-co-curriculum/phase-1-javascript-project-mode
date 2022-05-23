@@ -47,3 +47,7 @@ function videoSearch(key, search, maxResults) {
         $("#trailer").append(video);
     })
 }
+
+function getReviews() {
+    
+}
