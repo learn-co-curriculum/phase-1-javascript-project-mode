@@ -22,7 +22,8 @@ HTML, CSS, and JavaScript and will communicate with a public API.
 
 ### Project Requirements
 
-1. Your app must be a HTML/CSS/JS frontend that accesses data from a public API.
+1. Your app must be a HTML/CSS/JS frontend that accesses data from a public API or
+   from a db.json file using json-server.
    All interactions between the client and the API should be handled
    asynchronously and use JSON as the communication format. Try to avoid using
    an API that requires a key. APIs that are free and require no authorization
@@ -30,13 +31,13 @@ HTML, CSS, and JavaScript and will communicate with a public API.
    you would like to use an API that requires a key, please consult with your
    instructor on how to protect that key. **NEVER push your API key to github!**
 
-2. Your entire app must run on a single page. There should be NO redirects. In
-   other words, your project will contain a single HTML file.
+2. Your entire app must run on a single page. There should be NO redirects or
+    reloads. In other words, your project will contain a single HTML file.
 
-3. Use at least 3 unique [event-listeners][] that enable interactivity. Think
+3. Use at least **3 distinct** [event-listeners][] that enable interactivity. Think
    search or filter functionality, toggling dark/light mode, upvoting posts,
-   etc. Each of your event listeners should have its own unique callback
-   function.
+   etc. Each of your event listeners should also have its own unique callback
+   function. These **must** be added using JavaScript's .addEventListener(). Events embedded into HTML elements and CSS will not count toward the total. (Note: 3 distinct means that if you had 3 'click' events, it would count for only 1 distinct event. This means you would need to add at least 2 additional events.) Please ask your instructor if you have questions regarding this requirement.
 
 4. Your project must implement at least one instance of array iteration using
    available array methods (`map`, `forEach`, `filter`, etc). Manipulating your
