@@ -24,7 +24,7 @@ HTML, CSS, and JavaScript and will communicate with a public API.
 
 1. Your app must be a HTML/CSS/JS frontend that accesses data from a public API or
    from a db.json file using json-server. Your API or db.json should return a 
-   collection of at least 10 objects with each object having at least 3 attributes. 
+   collection of at least 5 objects with each object having at least 3 attributes. 
    All interactions between the client and the API should be handled
    asynchronously and use JSON as the communication format. Try to avoid using
    an API that requires a key. APIs that are free and require no authorization
