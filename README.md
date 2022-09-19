@@ -23,7 +23,8 @@ HTML, CSS, and JavaScript and will communicate with a public API.
 ### Project Requirements
 
 1. Your app must be a HTML/CSS/JS frontend that accesses data from a public API or
-   from a db.json file using json-server.
+   from a db.json file using json-server. Your API or db.json should return a 
+   collection of at least 10 objects with each object having at least 3 attributes. 
    All interactions between the client and the API should be handled
    asynchronously and use JSON as the communication format. Try to avoid using
    an API that requires a key. APIs that are free and require no authorization
@@ -34,10 +35,14 @@ HTML, CSS, and JavaScript and will communicate with a public API.
 2. Your entire app must run on a single page. There should be NO redirects or
     reloads. In other words, your project will contain a single HTML file.
 
-3. Use at least **3 distinct** [event-listeners][] that enable interactivity. Think
-   search or filter functionality, toggling dark/light mode, upvoting posts,
-   etc. Each of your event listeners should also have its own unique callback
-   function. These **must** be added using JavaScript's .addEventListener(). Events embedded into HTML elements and CSS will not count toward the total. (Note: 3 distinct means that if you had 3 'click' events, it would count for only 1 distinct event. This means you would need to add at least 2 additional events.) Please ask your instructor if you have questions regarding this requirement.
+3. Use at least 3 distinct [event listeners][event-listeners] (3 events of different
+   types) that enable interactivity. What this means is that, if you had 3 click
+   events, that would only count as 1 distinct event and you would need to add at
+   least 2 more. Think search or filter functionality, toggling dark/light mode,
+   upvoting posts, etc. Each of your event listeners should also have its own unique 
+   callback function. These must be added using JavaScript's .addEventListener()
+   method. Events embedded into HTML elements and CSS will not count toward the 
+   total. Please ask your instructor if you have questions regarding this requirement.
 
 4. Your project must implement at least one instance of array iteration using
    available array methods (`map`, `forEach`, `filter`, etc). Manipulating your
