@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: pink;
+}
+
+#title {
+    color: #5856d6;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+button {
+    background-color: white;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: #dd4ab3;
+    cursor: pointer;
+}
+
+#container {
+    width: 600px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(55, 55, 55);
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+    padding: 25px;
+    }
+
+#display-joke {
+    background-color: #5856d6;
+    color: white;
+    padding: 10px;
+}
+
+
