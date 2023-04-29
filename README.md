@@ -185,3 +185,4 @@ You can consult the [json-server docs][] for more information.
 [json-server]: https://www.npmjs.com/package/json-server
 [event-listeners]: https://developer.mozilla.org/en-US/docs/Web/Events
 [APIs]:  https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
+# Phase 1 Project
