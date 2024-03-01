@@ -1,0 +1,40 @@
+<mxfile host="65bd71144e">
+    <diagram id="lyV7gF9lxTsv1D2gu8Uh" name="Page-1">
+        <mxGraphModel dx="1379" dy="1661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="SPECIFIC CAMERA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="353" y="160" width="165" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="SITE NAME" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="343" y="20" width="165" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="DROPDOWN BAR - FILTER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="80" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="SEARCH BAR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="80" width="225" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="RANDOM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="565" y="80" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="ROVER NAME" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="142.5" y="160" width="175" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="ROVER INFORMATION / &lt;br&gt;SOL INFORMATION / &lt;br&gt;YEAR INFORMATION" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="436" y="223" width="396" height="418" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="LINK NASA (NAV)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="554" y="160" width="165" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="ROVER PHOTO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="29" y="223" width="396" height="418" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="122" y="725" width="607" height="251" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

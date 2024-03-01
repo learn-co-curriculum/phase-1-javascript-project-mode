@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="lyV7gF9lxTsv1D2gu8Uh" name="Page-1">
+        <mxGraphModel dx="949" dy="1147" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="FAMILY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="188.5" y="470" width="183" height="73" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Game of Thrones Glossary" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="34" width="165" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="FILTER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="85" y="92" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="SEARCH BAR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="332" y="89" width="225" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="PICTURE OF CHARACTER" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#9933FF;" vertex="1" parent="1">
+                    <mxGeometry x="409" y="206" width="362" height="356" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="GAME OF THRONES" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#999900;" vertex="1" parent="1">
+                    <mxGeometry x="165" y="662" width="565" height="177" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="FULLNAME" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="176" y="219" width="200.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="TITLE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="183" y="349" width="186.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="HOUSE DROPDOWN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="597" y="82" width="165" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
