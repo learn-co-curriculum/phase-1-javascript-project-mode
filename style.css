@@ -1,0 +1,92 @@
+@import url("bootstrap.css");
+
+body {
+     
+     
+     background-image:url(https://www.poppriceguide.com/wp-content/uploads/2020/06/Rick-and-Morty-Funko-Toy-License.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+
+}
+
+h1 {text-align: center;
+     font-family: sans-serif;
+     font-size: 0.9cm;
+     font-weight:bolder;
+     font-style: oblique;
+}
+
+#characters {
+    text-decoration: none;
+}
+   
+
+
+.box {
+    width: 600px;
+    height: 700px;
+    display: inline-block;
+    list-style: none;
+    font-size: xx-large;
+}
+
+footer.text-center {
+    text-align: center;
+    background-color: rgb(194, 225, 252);
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+#logo {
+    height: 20px;
+    width: 20px;
+   
+}
+#log {
+    height: 20px;
+    width: 20px;
+}
+
+#characters {
+    text-decoration: none;
+     font-style: italic;
+}
+#commentbtn {
+    background-color: aquamarine;
+}
+#userinfo {
+    font-style: italic;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.fav {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fav-selected > .material-symbols-outlined{
+    color: black;
+}
+/* .fav-selected > .likeCount  */
+.liked.material-symbols-outlined {
+    color:rgb(247, 11, 11);
+}
+#intro {
+    margin-left: 20px;
+    font-style: italic;
+}

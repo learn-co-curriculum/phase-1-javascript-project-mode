@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <title>Main Rick and Morty characters</title>
+</head>
+<body>
+  <div class="color">
+    <h1>Rick and Morty Characters</h1>
+    
+    <p>Rick and Morty is an animated sci-fi show created by Justin Roiland and Dan Harmon. The show started in 2013 and has 7 seasons.</p>
+    <div class="container">
+      <div class="row">
+          <div class="col-md-5">
+              <div id="wrapper">
+                  <div id="splitleft" class="box">
+                      <h2 id="characters">Characters</h2>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-7">
+              <div id="wrapper2">
+                  <div id="splitright" class="box">
+                      <h2 id="chdata"></h2>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <br>
+    <p>Find more information about the show from
+      <a href="https://en.wikipedia.org/wiki/Rick_and_Morty">show insight</a>
+    </p>
+    <p>Watch the latest episode on
+      <a href="https://rb.gy/hjosj">Hulu</a>
+    </p>
+    
+  </div>   
+  <div id="commentContainer">
+    <p>What are your thoughts on the characters?</p>
+    <input id="commentSection" type="text">
+    <button id="commentbtn" type="button">comment</button>
+    <br>
+    <div class="fav fav-selected">
+      <span class="material-symbols-outlined">favorite</span>
+      <span class="likeCount">0</span>
+    </div>
+  </div>
+  <hr>
+  <footer class="text-center">
+    <div class="container2">
+      <div id="socials">
+        <p>Interesting pictures at</p>
+        <a href="https://unsplash.com/@mangara74_">unsplash</a>
+        <img id="logo" src="https://cdn.icon-icons.com/icons2/3261/PNG/512/unsplash_logo_icon_206651.png"
+          alt="unsplash icon">
+        <a href="https://www.pinterest.com/search/pins/?rs=ac&len=2&q=rick%20and%20morty&eq=rick%20and&etslf=7043">pinterest</a>
+        <img id ="log" src="https://i.pinimg.com/236x/6e/ad/91/6ead912ceb43c93b8e189d1eb802845f.jpg"
+          alt="pinterest icon">
+      </div><br>
+      <p>&copy; 2023. Joseph Mangara.All rights reserved.</p>
+      <p>Rick and Morty</p>
+    </div>
+  </footer>
+<script src="./js/index.js"></script>
+</body>
+</html>
